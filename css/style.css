@@ -46,8 +46,12 @@ footer p {
 /*-------------------------------------
 | Card
 -------------------------------------*/
+
+canvas {
+  height: 400px;
+}
 .card-container {
-  perspective: 200;
+  perspective: 500;
 }
 
 .card {
