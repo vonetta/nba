@@ -42,7 +42,8 @@ function Circle() {
   this.draw = function() {
     ctx.strokeStyle = '#db854b'; // color of the lines
     ctx.lineWidth = 2;
-    ctx.fillStyle = 'red';
+    // ctx.fillStyle = 'orange';
+    // ctx.fill();
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI);
     ctx.stroke();
